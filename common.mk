@@ -10,7 +10,7 @@ build:
 	go build -o build/$(NAME) $(LDFLAGS) cmd/$(NAME).go
 
 install:
-	go install $(LDFLAGS)
+	go install $(LDFLAGS) cmd/$(NAME).go
 
 compile:
 	@rm -rf build/
