@@ -1,6 +1,8 @@
 # Simple Letsencrypt CLI - DNS challenges only
 [![Build Status](https://travis-ci.org/c4milo/letse.svg?branch=master)](https://travis-ci.org/c4milo/letse)
 
+**Deprecated, use https://github.com/xenolf/lego instead.**
+
 Letse allows you to easily issue free TLS certificates from LetsEncrypt by
 completing the DNS Challenge of a domain name under your control.
 
